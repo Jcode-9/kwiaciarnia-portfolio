@@ -1,5 +1,3 @@
-import bg1 from "../assets/bg1.webp"
-import bg2 from "../assets/bg2.webp"
 
 const prices = [
   {
@@ -38,13 +36,7 @@ const prices = [
 function Pricing() {
   return (
 
-   <section id="cennik" className="relative overflow-hidden py-20 px-3 min-[500px]:px-6">
-
-      <img src={bg1} alt="" className="absolute right-0 top-0 w-72 opacity-60 pointer-events-none"/>
-
-      <img src={bg2} alt="" className="absolute left-0 bottom-0 w-72 opacity-60 pointer-events-none"/>
-
-      <div className="absolute inset-0 bg-white/70"></div>
+   <section id="cennik" className="pricing-section relative overflow-hidden px-3 py-20 min-[500px]:px-6">
 
       <div className="relative z-10 max-w-5xl mx-auto">
 

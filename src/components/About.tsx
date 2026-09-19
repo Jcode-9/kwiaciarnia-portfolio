@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about1.webp"
+import aboutImg from "../assets/about-generated.webp"
 import { motion } from "framer-motion"
 
 const stats = [
@@ -46,7 +46,7 @@ function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.3 }}
-            className="w-full md:w-1/2 rounded-2xl shadow-lg object-cover"
+            className="about-image w-full rounded-2xl object-cover shadow-lg md:w-1/2"
           />
 
 

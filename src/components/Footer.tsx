@@ -55,6 +55,10 @@ return (
           Kontakt
         </a>
 
+        <a href="#lokalizacja" className="hover:text-white transition">
+          Lokalizacja
+        </a>
+
       </div>
 
     </div>
@@ -98,7 +102,7 @@ return (
 
 
     <p className="mt-2">
-      Strona wykonana przez <span className="font-bold text-white">KaJak Studio</span>
+      Strona wykonana przez <span className="font-bold text-white">JKstudio</span>
     </p>
 
 

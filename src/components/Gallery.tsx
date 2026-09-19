@@ -1,9 +1,9 @@
 import { useState } from "react"
-import gallery1 from "../assets/gallery1.webp"
-import gallery2 from "../assets/gallery2.webp"
-import gallery3 from "../assets/gallery3.webp"
-import gallery4 from "../assets/gallery4.webp"
-import gallery5 from "../assets/gallery5.webp"
+import gallery1 from "../assets/gallery-generated-1.webp"
+import gallery2 from "../assets/gallery-generated-2.webp"
+import gallery3 from "../assets/gallery-generated-3.webp"
+import gallery4 from "../assets/gallery-generated-4.webp"
+import gallery5 from "../assets/gallery-generated-5.webp"
 import { motion } from "framer-motion"
 
 
@@ -29,7 +29,7 @@ function Gallery() {
 
   return (
 
-    <section id="realizacje" className="py-20 px-6">
+    <section id="realizacje" className="gallery-section px-6 py-24">
 
       <div className="max-w-6xl mx-auto">
 
@@ -60,7 +60,7 @@ function Gallery() {
                 duration: 1,
                 delay: index * 0.2
               }}
-              className="h-[350px] overflow-hidden rounded-2xl cursor-pointer"
+              className="gallery-card h-[350px] cursor-pointer overflow-hidden rounded-2xl"
               onClick={() => setSelectedImage(image)}
             >
 
@@ -94,7 +94,7 @@ function Gallery() {
                 duration: 1,
                 delay: index * 0.2
               }}
-              className="h-[250px] overflow-hidden rounded-2xl cursor-pointer"
+              className="gallery-card h-[250px] cursor-pointer overflow-hidden rounded-2xl"
               onClick={() => setSelectedImage(image)}
             >
 
